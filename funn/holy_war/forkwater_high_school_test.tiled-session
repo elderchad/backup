@@ -1,0 +1,155 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "salt_lakebed_city.tmx",
+    "expandedProjectPaths": [
+        "."
+    ],
+    "fileStates": {
+        "C:/Users/kenne/Desktop/random/funn/ChadGasm/palmyra.tsx": {
+            "scaleInDock": 3,
+            "scaleInEditor": 1
+        },
+        "characters.tsx": {
+            "scaleInDock": 1
+        },
+        "forkwater_cafeteria.tsx": {
+            "scaleInDock": 1
+        },
+        "forkwater_classroom.tsx": {
+            "scaleInDock": 1
+        },
+        "forkwater_football.tsx": {
+            "scaleInDock": 1
+        },
+        "forkwater_high_bathroom.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "forkwater_high_cafeteria.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "forkwater_high_classroom.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "forkwater_high_hallway.tsx": {
+            "scaleInDock": 1.5,
+            "scaleInEditor": 1
+        },
+        "forkwater_high_school.tmx": {
+            "scale": 3,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 936.8333333333333,
+                "y": 413.16666666666663
+            }
+        },
+        "forkwater_overworld.tsx": {
+            "scaleInDock": 1
+        },
+        "forkwater_school.tsx": {
+            "scaleInDock": 1
+        },
+        "forkwater_test.tmx": {
+            "scale": 3,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 3243.5,
+                "y": 52.5
+            }
+        },
+        "iq_characters_clique.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "iq_characters_main.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "kirtland.tsx": {
+            "scaleInDock": 1
+        },
+        "nauvoo.tmx": {
+            "scale": 0.5795,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 1686.7989646246765,
+                "y": 1069.025021570319
+            }
+        },
+        "nauvoo.tsx": {
+            "scaleInDock": 1
+        },
+        "nauvoov2.tmx": {
+            "scale": 0.5795,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 1686.7989646246765,
+                "y": 1069.025021570319
+            }
+        },
+        "salt_lakebed_city.tmx": {
+            "scale": 5.5,
+            "selectedLayer": 6,
+            "viewCenter": {
+                "x": 617.3636363636364,
+                "y": 848.4545454545455
+            }
+        },
+        "salt_lakebed_city.tsx": {
+            "scaleInDock": 3,
+            "scaleInEditor": 5.5
+        },
+        "slc_modern.tmx": {
+            "scale": 4,
+            "selectedLayer": 4,
+            "viewCenter": {
+                "x": 1728.625,
+                "y": 1639.125
+            }
+        }
+    },
+    "last.imagePath": "C:/Users/kenne/Desktop/chad/tilesheets",
+    "map.fixedSize": false,
+    "map.lastUsedFormat": "tmx",
+    "openFiles": [
+        "forkwater_high_school.tmx",
+        "forkwater_high_hallway.tsx",
+        "forkwater_high_classroom.tsx",
+        "forkwater_test.tmx",
+        "nauvoo.tmx",
+        "nauvoov2.tmx",
+        "salt_lakebed_city.tmx",
+        "slc_modern.tmx",
+        "C:/Users/kenne/Desktop/random/funn/ChadGasm/palmyra.tsx",
+        "salt_lakebed_city.tsx"
+    ],
+    "project": "forkwater_high_school_test.tiled-project",
+    "recentFiles": [
+        "forkwater_high_school.tmx",
+        "forkwater_high_hallway.tsx",
+        "forkwater_high_classroom.tsx",
+        "forkwater_test.tmx",
+        "nauvoo.tmx",
+        "nauvoov2.tmx",
+        "salt_lakebed_city.tsx",
+        "C:/Users/kenne/Desktop/random/funn/ChadGasm/palmyra.tsx",
+        "slc_modern.tmx",
+        "salt_lakebed_city.tmx",
+        "forkwater_high_bathroom.tsx",
+        "iq_characters_clique.tsx"
+    ],
+    "tileset.lastUsedFormat": "tsx",
+    "tileset.margin": 1,
+    "tileset.spacing": 1,
+    "tileset.tileSize": {
+        "height": 16,
+        "width": 16
+    },
+    "tileset.transparentColor": "#a349a4",
+    "tileset.useTransparentColor": true
+}

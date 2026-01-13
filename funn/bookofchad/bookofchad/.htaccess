@@ -1,0 +1,5 @@
+
+RewriteEngine on
+# Use system PHP5 as default
+
+# AddHandler application/x-httpd-php5 .php

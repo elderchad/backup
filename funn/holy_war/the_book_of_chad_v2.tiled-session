@@ -1,0 +1,358 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "salt_lakebed_city.tmx",
+    "expandedProjectPaths": [
+    ],
+    "file.lastUsedOpenFilter": "All Files (*)",
+    "fileStates": {
+        "C:/Users/kenne/Desktop/random/funn/ChadGasm/palmyra.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "C:/Users/kenne/Desktop/random/funn/the_book_of_chad/salt_lakebed_city.tsx": {
+            "scaleInDock": 1
+        },
+        "background.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "bars.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 3
+        },
+        "blackhole.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "blood.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 8
+        },
+        "blood_flow.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 8
+        },
+        "blood_ground.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "blood_spilling.tsx": {
+            "scaleInDock": 3,
+            "scaleInEditor": 1
+        },
+        "cain_sheet.tsx": {
+            "scaleInDock": 1
+        },
+        "cain_walk.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "chad_charge_walk.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "chad_falling_sword.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "chad_hang_sword_wireframe.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 4
+        },
+        "chad_meteor.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "chad_swing_charge.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "chad_sword.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "chad_sword_test.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "chad_sword_wireframe.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "characters.tsx": {
+            "scaleInDock": 1
+        },
+        "circle.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 5.5
+        },
+        "cross.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "crown.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 8
+        },
+        "cube.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 2
+        },
+        "cybertruck.tsx": {
+            "scaleInDock": 5.5,
+            "scaleInEditor": 1
+        },
+        "dust.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 8
+        },
+        "elohim_holy_projectile.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "elohim_projectile.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "elohim_shooting.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "fire.tsx": {
+            "scaleInDock": 5.5,
+            "scaleInEditor": 1
+        },
+        "fires.tsx": {
+            "scaleInDock": 5.5,
+            "scaleInEditor": 1
+        },
+        "flower.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 3
+        },
+        "full.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "holy_war_effects.tsx": {
+            "scaleInDock": 1
+        },
+        "holy_war_field.tsx": {
+            "scaleInDock": 1
+        },
+        "holy_war_map.tmx": {
+            "scale": 2.477764423076923,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 192.31045355323795,
+                "y": 120.47150133398011
+            }
+        },
+        "holy_war_players.tsx": {
+            "scaleInDock": 1
+        },
+        "horse.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 5.5
+        },
+        "idle.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 8
+        },
+        "jesus_float.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 11
+        },
+        "jesus_praying.tsx": {
+            "scaleInDock": 4,
+            "scaleInEditor": 1
+        },
+        "kirtland.tsx": {
+            "scaleInDock": 1
+        },
+        "level.tsx": {
+            "scaleInDock": 2,
+            "scaleInEditor": 5.5
+        },
+        "lightning.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 8
+        },
+        "lightning_long.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "lightning_orb.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "meteor.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 8
+        },
+        "meteor_shadow.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 8
+        },
+        "meteor_shadow_big.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 8
+        },
+        "meteors.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "nauvoo.tsx": {
+            "scaleInDock": 1
+        },
+        "opening_demo_test.tsx": {
+            "scaleInDock": 1
+        },
+        "opening_test.tsx": {
+            "scaleInDock": 1
+        },
+        "push_cross.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 8
+        },
+        "salt_lakebed_city.tmx": {
+            "scale": 11,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 240.27272727272728,
+                "y": 218.45454545454547
+            }
+        },
+        "salt_lakebed_city.tsx": {
+            "scaleInDock": 1
+        },
+        "sample.tmx": {
+            "scale": 2.419600938967136,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 213.25830705796753,
+                "y": 120.06112054329374
+            }
+        },
+        "sample_slc.tmx": {
+            "scale": 0.75,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 800,
+                "y": 639.3333333333333
+            }
+        },
+        "sample_slc.tsx": {
+            "scaleInDock": 1
+        },
+        "slc.tsx": {
+            "scaleInDock": 0.33,
+            "scaleInEditor": 1
+        },
+        "slc_modern.tmx": {
+            "scale": 0.25,
+            "selectedLayer": 9,
+            "viewCenter": {
+                "x": 3616,
+                "y": 1910
+            }
+        },
+        "soundwave.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "sword_projectile.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 3
+        },
+        "sword_projectile_2.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 5.5
+        },
+        "sword_projectile_3.tsx": {
+            "scaleInDock": 1
+        },
+        "the_book_of_chad.tmx": {
+            "scale": 2,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 4335.5,
+                "y": 286.75
+            }
+        },
+        "trumpet_swing.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "warp_in.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "wave.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "wave_thin.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "waves.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "wormhole.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "wormhole_animated.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "zombie.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 4
+        },
+        "zoom.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 4
+        }
+    },
+    "frame.defaultDuration": 150,
+    "last.imagePath": "C:/Users/kenne/Documents/GitHub/bookofchad/characters/enemies",
+    "map.fixedSize": false,
+    "map.tileHeight": 16,
+    "map.tileWidth": 16,
+    "map.width": 28,
+    "openFiles": [
+        "sword_projectile_2.tsx",
+        "salt_lakebed_city.tmx",
+        "zombie.tsx"
+    ],
+    "project": "the_book_of_chad_v2.tiled-project",
+    "recentFiles": [
+        "sword_projectile_2.tsx",
+        "zombie.tsx",
+        "salt_lakebed_city.tmx",
+        "level.tsx",
+        "horse.tsx",
+        "slc_modern.tmx",
+        "circle.tsx",
+        "flower.tsx",
+        "bars.tsx",
+        "cube.tsx",
+        "full.tsx",
+        "zoom.tsx"
+    ],
+    "tileset.lastUsedFormat": "tsx",
+    "tileset.margin": 0,
+    "tileset.spacing": 0,
+    "tileset.tileSize": {
+        "height": 38,
+        "width": 30
+    },
+    "tileset.transparentColor": "#a349a4",
+    "tileset.useTransparentColor": true
+}

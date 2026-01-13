@@ -1,0 +1,1498 @@
+/*
+Created in February 2014 by Kenneth Bates
+For The Big Leagues - an independent video game company (website: BigLeaguez.com)
+As a final project for the Diploma of Website Development course at Southbank Institute of Technology
+
+Impressions I'm trying to portray with this styling:
+-Clean
+-Simple
+-Professional
+-Unique
+-Eye-catching
+-A respect for the pixel
+
+Color scheme includes:
+-#4b545f for TEXT
+-rgb(251, 0, 125) pink
+-rgb(204, 236, 244) light blue
+-rgb(0, 64, 88) true dark blue
+-rgb(255, 242, 0) yellow
+
+-rgb(0, 64, 88) true NES color palette BoM background color
+
+-rgb(8,42,71); BoM background - dark blue
+-rgb(207,181,122); BoM text - gold
+-rgb(62,88,79); HYMN BOOK GREEN
+*/
+::selection {
+	background: rgb(0, 64, 88);
+	color: white;
+}
+body {
+	width: 960px;
+	margin: 0 auto;
+	position: relative;
+	font-size: .8em;
+	font-family: Verdana, sans-serif;
+	line-height:20px;
+	color:#4b545f;
+}
+h4 a {
+	text-decoration: none;
+	color: rgb(0, 64, 88);
+}
+h5 {
+	font-size: 1.2em;
+}
+#pagewrap {
+	padding: 5px;
+	width: 960px;
+	margin: 20px auto;
+}
+#header {
+	height: 90px;
+	background-color: rgb(0, 64, 88);
+}
+#logo {
+	height: 99px;
+	width: 198px;
+	float: left;
+	padding-top: 5px;
+}
+nav {
+	width: 960px;
+	height: 27px;
+	float: left;
+	bottom: 25px;
+	position: relative;
+	margin: auto;
+	font-size: 12px;
+	font-weight: bold;
+}
+nav ul {
+	list-style:none;
+	padding-left: 0;
+	margin: auto;
+	position:relative;
+}
+nav ul:after {
+	content: "";
+	clear:both;
+	display:block;
+}
+nav ul li a{
+	display:block;
+	padding: 2px 0px 10px 0px;
+	width: 240px;
+	height: 12px;
+	text-align: center;
+	color: rgb(0, 64, 88);
+	bottom: 0px;
+	float: left;
+	position: relative;
+	border-bottom: 2px solid rgb(0, 64, 88);
+	border-top: 2px solid rgb(0, 64, 88);
+}
+nav ul li:hover a{
+	width: 240px;
+	height: 22px;
+	color: rgb(248, 184, 0);
+	background: rgb(0, 64, 88);
+	padding: 2px 0px 0px 0px;
+	position: relative;
+}
+nav ul li a:link {
+	text-decoration:none;
+}
+#welcome {
+	font-size: 1em;
+	height: 0px;
+	float: right;
+	position: relative;
+	color: rgb(251, 0, 125);
+	font-weight: bold;
+}
+
+#welcome a {
+	float: right;
+	text-decoration: none;
+	color: rgb(0, 64, 88);
+	bottom: 5px;
+	position: relative;
+}
+
+#welcome a:hover {
+	text-decoration: underline;
+}
+
+/* Active Page Icons */
+
+.homeActive {
+	position: relative;
+	text-align: center;
+	color: rgb(0, 64, 88);
+	background-image: url(../images/homeIcon2.png);
+	background-repeat: no-repeat;
+	background-position: 27% 2%;
+}
+.homeActive:hover {
+	background: rgb(0, 64, 88);
+	color: rgb(248, 184, 0);
+	background-image: url(../images/homeIcon.png);
+	background-repeat: no-repeat;
+	background-position: 27% 2%;
+}
+.gamesActive {
+	position: relative;
+	text-align: center;
+	color: rgb(0, 64, 88);
+	background-image: url(../images/gamesIcon2.png);
+	background-repeat: no-repeat;
+	background-position: 23% 2%;
+}
+.gamesActive:hover {
+	background: rgb(0, 64, 88);
+	color: rgb(248, 184, 0);
+	background-image: url(../images/gamesIcon.png);
+	background-repeat: no-repeat;
+	background-position: 23% 2%;
+}
+.artActive {
+	position: relative;
+	text-align: center;
+	color: rgb(0, 64, 88);
+	background-image: url(../images/blogIcon2.png);
+	background-repeat: no-repeat;
+	background-position: 32% 2%;
+}
+.artActive:hover {
+	background: rgb(0, 64, 88);
+	color: rgb(248, 184, 0);
+	background-image: url(../images/blogIcon.png);
+	background-repeat: no-repeat;
+	background-position: 32% 2%;
+}
+.tunesActive {
+	position: relative;
+	text-align: center;
+	color: rgb(0, 64, 88);
+	background-image: url(../images/tunesIcon2.png);
+	background-repeat: no-repeat;
+	background-position: 25% 2%;
+}
+.tunesActive:hover {
+	background: rgb(0, 64, 88);
+	color: rgb(248, 184, 0);
+	background-image: url(../images/tunesIcon.png);
+	background-repeat: no-repeat;
+	background-position: 25% 2%;
+}
+.storeActive {
+	position: relative;
+	text-align: center;
+	color: rgb(0, 64, 88);
+	background-image: url(../images/storeIcon2.png);
+	background-repeat: no-repeat;
+	background-position: 28% 2%;
+}
+.storeActive:hover {
+	background: rgb(0, 64, 88);
+	color: rgb(248, 184, 0);
+	background-image: url(../images/storeIcon.png);
+	background-repeat: no-repeat;
+	background-position: 28% 2%;
+}
+.historyActive {
+	position: relative;
+	text-align: center;
+	color: rgb(0, 64, 88);
+	background-image: url(../images/chadgasm/historyIcon2.png);
+	background-repeat: no-repeat;
+	background-position: 23% 2%;
+}
+.historyActive:hover {
+	background: rgb(0, 64, 88);
+	color: rgb(248, 184, 0);
+	background-image: url(../images/chadgasm/historyIcon.png);
+	background-repeat: no-repeat;
+	background-position: 23% 2%;
+}
+#search {
+	width: 200px;
+	float: right;
+	bottom: 33px;
+	left: 8px;
+	position: relative;
+}
+#search input {
+	width: 160px;
+}
+#searchSubmit {
+	width: 30px;
+	float: right;
+}
+#searchSubmit input {
+	height: 25px;
+	width: 27px;
+	background-image: url(../images/searchSubmit2.png);
+	background-repeat: no-repeat;
+	border: none;
+	background-color: white;
+}
+#searchSubmit input:hover {
+	background-image: url(../images/searchSubmit.png);
+}
+#sidebar {
+	width: 220px;
+	height: auto;
+	min-height: 630px;
+	bottom: 10px;
+	float: right;
+	position: relative;
+	border-top: 2px solid rgb(0, 64, 88);
+	border-right: 2px solid rgb(0, 64, 88);
+	border-left: 2px solid rgb(0, 64, 88);
+	padding: 0 15px 0 15px;
+	text-align: left;
+}
+#sidebar ul li {
+	width: 200px;
+	list-style: none;
+	left: -40px;
+	position: relative;
+}
+#sidebar p {
+	width: 100%;
+}
+#sidebar img {
+	margin: auto;
+}
+#sidebar #bandit {
+	width: 114%;
+	height: 27px;
+	right: 7%;
+	position: relative;
+	text-align: center;
+	padding-top: 10px;
+}
+#sidebar p {
+	font-size: .9em;
+}
+
+/* Social Media Shenanigans */
+
+#social {
+	height: 34px;
+	width: 100%;
+	right: 0px;
+	bottom: 80px;
+	margin: auto;
+	position: absolute;
+	padding-top: 5px;
+	border-top: 2px solid rgb(0, 64, 88);
+	padding-bottom: 5px;
+	border-bottom: 2px solid rgb(0, 64, 88);
+	background-color: rgb(255, 250, 140);
+}
+#facebook {
+	background-image: url(../images/facebook.png);
+	height: 34px;
+	width: 34px;
+	float: left;
+	position: relative;
+	margin: 0 5px 0 20px;
+}
+#facebook:hover {
+	background-image: url(../images/facebook2.png);
+	height: 34px;
+	width: 34px;
+}
+#googlePlus {
+	background-image: url(../images/googleplus.png);
+	height: 34px;
+	width: 34px;
+	float: left;
+	position: relative;
+	margin: 0 5px;
+}
+#googlePlus:hover {
+	background-image: url(../images/googleplus2.png);
+	height: 34px;
+	width: 34px;
+}
+#twitter {
+	background-image: url(../images/twitter.png);
+	height: 34px;
+	width: 34px;
+	float: left;
+	position: relative;
+	margin: 0 5px;
+}
+#twitter:hover {
+	background-image: url(../images/twitter2.png);
+	height: 34px;
+	width: 34px;
+}
+#reddit {
+	background-image: url(../images/reddit.png);
+	height: 34px;
+	width: 34px;
+	float: left;
+	position: relative;
+	margin: 0 5px;
+}
+#reddit:hover {
+	background-image: url(../images/reddit2.png);
+	height: 34px;
+	width: 34px;
+}
+#mail {
+	background-image: url(../images/mail.png);
+	height: 34px;
+	width: 30px;
+	float: left;
+	position: relative;
+	margin: 0 5px;
+}
+#mail:hover {
+	background-image: url(../images/mail2.png);
+	height: 34px;
+	width: 30px;
+	float: left;
+	position: relative;
+}
+#bannerbottom {
+	height: 64px;
+	width: 250px;
+	right: 0px;
+	bottom: 0px;
+	float: right;
+	position: absolute;
+}
+#content {
+	width: 690px;
+	height: auto;
+	min-height: 650px;
+	float: left;
+	bottom: 22px;
+	left: 15%;
+	position: relative;
+	padding: 0 15px 0 0px;
+}
+#content h2 {
+	text-align: center;
+	color: rgb(0, 64, 88);
+}
+#content p a:link {
+	text-decoration: none;
+	color: rgb(8,42,71);
+}
+#content p a:link:hover {
+	text-decoration: underline;
+}
+table tr {
+	height: 20px;
+	width: 40px;
+}
+table td {
+	height: 20px;
+}
+#tableLeft {
+	width: 35%;
+	float: left;
+	left: 20%;
+	position: relative;
+	line-height: 0;
+}
+#tableLeft tr {
+	height: 20px;
+	width: 120px;
+}
+#tableLeft td {
+	height: 20px;
+	width: 70px;
+}
+#tableLeft td img {
+	height: 20px;
+}
+#tableRight {
+	width: 35%;
+	float: right;
+	right: 20%;
+	position: relative;
+	line-height: 0;
+}
+#tableRight tr {
+	height: 20px;
+	width: 120px;
+}
+#tableRight td {
+	height: 20px;
+	width: 70px;
+}
+#tableRight td img {
+	height: 20px;
+}
+#tv {
+	width: 910px;
+	border: 25px solid black;
+	border-bottom: 5px solid black;
+	border-radius: 3px;
+	bottom: 7px;
+	position: relative;
+	background-color: black;
+}
+#tv object {
+	border: 1px solid #777;
+}
+#tv img {
+	left: 305px;
+	padding-top: 5px;
+	padding-bottom: 0px;
+	position: relative;
+}
+#stand {
+	left: 305px;
+	bottom: 5px;
+	position: relative;
+}
+
+		/* --HOME PAGE-- */
+		
+#news {
+	height: auto;
+	width: 650px;
+}
+#news p {
+	text-align: left;
+}
+#date {
+	font-size: .8em;
+	text-align: left;
+}
+#chadgasm {
+	height: auto;
+	width: 100%;
+	text-align: center;
+	padding-top: 10px;
+}
+
+		/* --GAMES PAGE-- */
+
+.game {
+	width: 100%;
+	height: 275px;
+	float: left;
+}
+.game img {
+	padding-top: 5px;
+}
+.game p{
+	text-align: center;
+	padding-top: 0px;
+}
+.game1 {
+	height: 100%;
+	width: 47%;
+	float: left;
+	font-size: .9em;
+}
+.game1 p {
+	text-align: left;
+}
+.game1 a {
+	color: rgb(0, 64, 88);
+	text-decoration: none;
+}
+.game1 h3 {
+	margin-top: 0px;
+}
+.game2 {
+	height: 45%;
+	width: 50%;
+	float: right;
+	border-color: grey;
+}
+.game2 h3 {
+	line-height: 0px;
+	margin-top: 8px;
+}
+.game2 h4 {
+	line-height: 0px;
+}
+.blue {
+	background-color: rgb(236, 248, 251);
+	border-radius: 3px;
+}
+.blue img {
+	padding-top: 5px;
+}
+.red {
+	background-color: rgb(237, 28, 36);
+	border-radius: 3px;
+}
+.red img {
+	padding-top: 5px;
+}
+.yellow {
+	background-color: rgb(255, 242, 0);
+	border-radius: 3px;
+}
+.yellow img {
+	padding-top: 5px;
+}
+.black {
+	background-color: black;
+	border-radius: 3px;
+}
+.black img {
+	padding-top: 5px;
+}
+.darkgrey {
+	background-color: rgb(70, 70, 70);
+	border-radius: 3px;
+}
+.darkgrey img {
+	padding-top: 5px;
+}
+#demo {
+	width: auto;
+	height: auto;
+	float: right;
+	bottom: 20px;
+	position: relative;
+}
+#demo a {
+	text-decoration: none;
+	color: rgb(0, 64, 88);
+}
+#sidebar h2 {
+	text-align: center;
+	color: rgb(0, 64, 88);
+}
+#sidebar a {
+	text-decoration: none;
+	color: rgb(0, 64, 88);
+}
+#sidebar a:hover {
+	text-decoration: underline;
+}
+
+		/* --ART PAGE-- */
+
+#cat1 {
+	width: 228px;
+	height: 500px;
+	float: left;
+}
+#cat1 p {
+	text-align: center;
+}
+#cat1 h3 {
+	text-decoration: underline;
+}
+#cat1 img {
+	max-width: 200px;
+}
+#cat2 {
+	width: 228px;
+	height: 500px;
+	float: left;
+	bottom: 20px;
+	position: relative;
+}
+#cat2 p {
+	text-align: center;
+}
+#cat3 {
+	width: 228px;
+	height: 500px;
+	float: right;
+}
+#cat3 p {
+	text-align: center;
+}
+#cat3 img {
+	max-width: 200px;
+}
+
+		/* --STORE PAGE-- */
+		
+#category1 {
+	height: auto;
+	width: 48%;
+	float: left;
+	top: 20px;
+	position: relative;
+	text-align: left;
+	padding-right: 10px;
+}
+#category1 h3 {
+	border-bottom: 1px solid #1488A8;
+}
+#category2 {
+	height: auto;
+	width: 48%;
+	float: right;
+	top: 20px;
+	position: relative;
+	text-align: left;
+	padding-left: 10px;
+}
+#category2 h3 {
+	border-bottom: 1px solid #1488A8;
+}
+#category2 h4 {
+	color: #1488A8;
+	line-height: 0px;
+}
+#category2 input {
+	border: 0px solid white;
+	position: relative;
+}
+#shoppingCart {
+	width: 100%;
+	height: 150px;
+	right: 2px;
+	padding-top: 0;
+	position: relative;
+	border-bottom: 2px solid rgb(0, 64, 88);
+	text-align: center;
+}
+#move {
+	top: 6px;
+	position: relative;
+}
+form table a {
+	text-decoration: none;
+	color: rgb(251, 0, 125);
+}
+form table a:hover {
+	text-decoration: underline;
+}
+form table {
+	color: #222;
+	margin: auto;
+	border-top: 2px solid rgb(255, 242, 0);
+	border-bottom: 2px solid rgb(255, 242, 0);
+}
+#content form p input {
+	width: 20%;
+	left: 40%;
+	position: relative;
+}
+#histcategory1 {
+	height: auto;
+	width: 48%;
+	float: left;
+	position: relative;
+	text-align: left;
+	padding-right: 20px;
+}
+#histcategory1 p {
+	margin-top: 0px;
+}
+#histcategory1 h3 {
+	border-bottom: 1px solid #1488A8;
+}
+#histcategory2 {
+	height: auto;
+	width: 46%;
+	float: right;
+	position: relative;
+	text-align: left;
+	padding-left: 0px;
+}
+#histcategory2 p {
+	margin-top: 0px;
+}
+#histcategory2 h3 {
+	border-bottom: 1px solid #1488A8;
+}
+#histcategory2 h4 {
+	color: #1488A8;
+	line-height: 0px;
+}
+
+#banner {
+	height: 54px;
+	width: 100%;
+	text-align: center;
+}
+#banner h2 {
+	text-shadow: 1px 1px rgb(153, 217, 234);
+	bottom: 64px;
+	position: relative;
+}
+#banner a {
+	color: rgb(255, 250, 140);
+	text-decoration: none;
+}
+#information {
+	height: 150px;
+	width: 100%;
+}
+#infoLeft {
+	height: 150px;
+	width: 40%;
+	float: left;
+	position: relative;
+}
+#infoLeft img {
+	max-height: 135px;
+	max-width: 135px;
+	border-top: 1px solid #eee;
+	border-left: 1px solid #ddd;
+	border-right: 3px solid #ccc;
+	border-bottom: 3px solid #ccc;
+	border-radius: 10px;
+}
+#purchase {
+	background-image: url(../images/purchase1.png);
+	height: 18px;
+	width: 123px;
+	float: left;
+	left: 7px;
+	bottom: 12px;
+	position: relative;
+}
+#purchase:active {
+	background-image: url(../images/purchase2.png);
+	height: 18px;
+	width: 123px;
+	float: left;
+	position: relative;
+}
+#infoLeft input {
+	border: 0px solid white;
+}
+#infoRight {
+	height: 150px;
+	width: 58%;
+	float: right;
+	position: relative;
+	text-align: left;
+}
+#price1 {
+	font-size: .85em;
+	font-weight: bold;
+	height: 20px;
+	width: 50px;
+	float: right;
+	bottom: 1px;
+	position: relative;
+	color: rgb(251, 0, 125);
+	font-weight: bold;
+	text-align: right;
+}
+#description {
+	font-size: 1em;
+	height: 120px;
+	max-height: 120px;
+	bottom: 4px;
+	position: relative;
+	padding-left: 5px;
+}
+#description h3 {
+	font-size: .95em;
+	line-height: 0px;
+	border-bottom: none;
+}
+#description p {
+	line-height: 18px;
+	font-size: .9em;
+}
+#description a {
+	text-decoration: none;
+	color: rgb(0, 64, 88);
+}
+#readMore {
+	height: 20px;
+	width: auto;
+	float: right;
+	bottom: 10px;
+	position: relative;
+	text-align: right;
+}
+#readMore a {
+	text-decoration: none;
+	color: rgb(0, 64, 88);
+}
+#readMore:hover {
+	text-decoration: underline;
+	color: rgb(0, 64, 88);
+}
+#viewAll {
+	height: 10px;
+	width: 130px;
+	float: right;
+	position: relative;
+	margin: 0em;
+	text-align: right;
+	padding-top: 15px;
+}
+#viewAll a {
+	text-decoration: none;
+	color: rgb(251, 0, 125);
+}
+#viewAll a:hover {
+	padding-top: 15px;
+	text-decoration: underline;
+	color: rgb(251, 0, 125);
+}
+#searchResultsProduct {
+	width: 690px;
+	height: 150px;
+	max-height: 200px;
+}
+#searchResultsBlog {
+	width: 690px;
+	height: 90px;
+	max-height: 200px;
+}
+#searchResultsBlog a {
+	text-decoration: none;
+	color: rgb(0, 64, 88);
+}
+#pink {
+	color: rgb(251, 0, 125);
+}
+#left {
+	height: 135px;
+	width: 135px;
+	float: left;
+}
+#right {
+	height: 116px;
+	width: 530px;
+	float: right;
+}
+#categoryContent {
+	bottom: 40px;
+	position: relative;
+}
+#categoryContent p {
+	min-height: 80px;
+}
+
+/* TUNES PAGE */
+
+#tunesLeft {
+	padding-top: 10px;
+}
+#tunesLeft h2 {
+	font-size: 1.1em;
+	text-align: left;
+	bottom: 10px;
+	position: relative;
+}
+#tunesLeft h2 a {
+	text-decoration: none;
+	color: rgb(0, 64, 88);
+}
+#tunesLeft h2 a:hover {
+	text-decoration: underline;
+}
+#tunesLeft h3 {
+	font-size: 2em;
+}
+#tunesLeft ul {
+	height: 60%;
+}
+#tunesLeft ul li {
+	font-size: .8em;
+	height: 30px;
+	width: 100%;
+	list-style: none;
+	right: 40px;
+	float: left;
+	position: relative;
+}
+#tunesLeft audio {
+	width: 70%;
+	float: right;
+	position: relative;
+}
+.right {
+	width: 180px;
+	float: right;
+	bottom: 65px;
+	right: 40px;
+	position: relative;
+	text-align: center;
+	line-height: 30px;
+}
+#download {
+	bottom: 15px;
+	left: 520px;
+	position: relative;
+}
+#download a {
+	color: white;
+}
+#download a:hover {
+	text-decoration: none;
+	color: rgb(0, 64, 88);
+}
+#download:link:after {
+	color: white;
+}
+#tunesLeft {
+	height: auto;
+	width: 100%;
+	float: left;
+	padding-top: 20px;
+}
+#tunesLeft h2 {
+	text-align: center;
+	top: 30px;
+	left: 127px;
+	position: relative;
+}
+#tunesLeft p {
+	text-align: right;
+	left: 10px;
+	bottom: 20px;
+	position: relative;
+}
+#tunesRight {
+	height: auto;
+	width: 150px;
+	float: right;
+	padding-top: 10px;
+	padding-right: 5px;
+}
+#tunesRight p {
+	width: 100px;
+}
+#tunesRight img {
+	float: right;
+}
+#playing {
+	width: 90%;
+}
+
+/* product information page */
+
+#gameHighlight {
+	width: 100%;
+	height: auto;
+	padding-top: 13px;
+	text-align: center;
+}
+.grey {
+	background-color: #eee;
+	padding-top: 12px;
+	padding-bottom: 12px;
+}
+#cart {
+	width: 40%;
+	height: 50%;
+	padding: 15px;
+	left: 28%;
+	position: relative;
+}
+#cart label {
+	width: 40%;
+	margin-bottom: 10px;
+	float: left;
+	color: rgb(0, 64, 88);
+	font-size: .9em;
+	padding-top: 2px;
+}
+#cart input {
+	width: 55%;
+	margin-bottom: 10px;
+	float: right;
+}
+#login {
+	width: 50%;
+	left: 16%;
+	position: relative;
+}
+#login label {
+	width: 40%;
+	margin-bottom: 10px;
+	float: left;
+	color: rgb(0, 64, 88);
+	font-size: .9em;
+	padding-top: 2px;
+}
+#login input {
+	width: 55%;
+	margin-bottom: 10px;
+	float: right;
+}
+#button {
+	width: 120px;
+	float: right;
+}
+#footer {
+	clear: both;
+	width: 960px;
+	height: 15px;
+	clear: both;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 0;
+	text-align: center;
+	padding: 2px 0px 10px 0px;
+	border-top: 2px solid rgb(0, 64, 88);
+	border-bottom: 2px solid rgb(0, 64, 88);
+}
+#footer p a {
+	text-decoration: none;
+	color: rgb(0, 64, 88);
+}
+#terms {
+	width: 960px;
+	height: 15px;
+	clear: both;
+	font-size: 10px;
+	line-height: 0;
+	text-align: center;
+}
+#terms p a {
+	text-decoration: none;
+	color: rgb(0, 64, 88);
+}
+#terms a:link:hover {
+	text-decoration: underline;
+}
+
+/* Media Queries */
+
+/* for 980px or less */
+@media screen and (max-width: 980px) {
+	body {
+		width: 696px;
+	}
+	head {
+		width: 696px;
+	}
+	#pagewrap {
+		width: 94%;
+	}
+	#content {
+		width: 495px;
+		float: left;
+		padding-right: 0;
+	}
+	#news {
+		width: 480px;
+	}
+	nav {
+		width: 696px;
+	}
+	nav ul {
+		list-style: none;
+	}
+	nav ul li a {
+		width: 116px;
+		float: left;
+	}
+	nav ul li a:hover {
+		width: 116px;
+		float: left;
+	}
+	.homeActive {
+		background-position: 17% 2%;
+	}
+	.homeActive:hover {
+		background-position: 17% 2%;
+	}
+	.gamesActive {
+		background-position: 13% 2%;
+	}
+	.gamesActive:hover {
+		background-position: 13% 2%;
+	}
+	.artActive {
+		background-position: 22% 2%;
+	}
+	.artActive:hover {
+		background-position: 22% 2%;
+	}
+	.tunesActive {
+		background-position: 15% 2%;
+	}
+	.tunesActive:hover {
+		background-position: 15% 2%;
+	}
+	.storeActive {
+		background-position: 18% 2%;
+	}
+	.storeActive:hover {
+		background-position: 18% 2%;
+	}
+	.historyActive {
+		background-position: 13% 2%;
+	}
+	.historyActive:hover {
+		background-position: 13% 2%;
+	}
+	#tunesRight {
+		display: none;
+	}
+	.game {
+		height: 310px;
+	}
+	.game2 {
+		font-size: .9em;
+	}
+	.game2 h3 {
+		line-height: 0px;
+		margin-top: 8px;
+	}
+	.game2 h4 {
+		line-height: 0px;
+	}
+	#category1 {
+		width: 45%;
+		float: left;
+	}
+	#category2 {
+		width: 45%;
+		float: right;
+	}
+	#banner img {
+		width: 225px;
+	}
+	#banner a {
+		top: 10px;
+		position: relative;
+	}
+	#infoLeft {
+		width: 100%;
+	}
+	#infoRight {
+		width: 100%;
+		height: 150px;
+	}
+	#purchase {
+		top: 110px;
+	}
+	#tv object {
+		width: 420px;
+		height: 250px;
+	}
+	#cat1 {
+		display: none;
+	}
+	#sidebar {
+		width: 162px;
+		float: right;
+	}
+	#mail {
+		display: none;
+	}
+	#bannerbottom {
+		display: none;
+	}
+	#footer {
+		width: 702px;
+	}
+	#terms {
+		width: 702px;
+	}
+}
+
+/* for 702px or less */
+@media screen and (max-width: 702px) {
+	#header {
+		width: 474px;
+	}
+	body {
+		width: 474px;
+	}
+	#content {
+		width: 474px;
+		float: left;
+	}
+	nav {
+		width: 474px;
+	}
+	
+	nav ul {
+		list-style: none;
+	}
+	nav ul li a {
+		width: 79px;
+		float: left;
+	}
+	nav ul li a:hover {
+		width: 79px;
+		float: left;
+	}
+	.homeActive {
+	background-image: none;
+	}
+	.homeActive:hover {
+		background-image: none;
+	}
+	.gamesActive {
+		background-image: none;
+	}
+	.gamesActive:hover {
+		background-image: none;
+	}
+	.artActive {
+		background-image: none;
+	}
+	.artActive:hover {
+		background-image: none;
+	}
+	.tunesActive {
+		background-image: none;
+	}
+	.tunesActive:hover {
+		background-image: none;
+	}
+	.storeActive {
+		background-image: none;
+	}
+	.storeActive:hover {
+		background-image: none;
+	}
+	.historyActive {
+		background-image: none;
+	}
+	.historyActive:hover {
+		background-image: none;
+	}
+	#banner img {
+		width: 316px;
+	}
+	#banner a {
+		top: 0;
+	}
+	#category1 {
+		width: 474px;
+		float: left;
+		height: 640px;
+	}
+	#category2 {
+		width: 474px;
+		float: left;
+		height: 640px;
+	}
+	#information {
+		width: 474px;
+	}
+	#infoLeft {
+		width: 150px;
+	}
+	#infoRight {
+		width: 319px;
+		right: 6px;
+		position: relative;
+	}
+	#infoRight #readMore {
+		right: 6px;
+		position: relative;
+	}
+	#purchase {
+		top: -10px;
+	}
+	#histcategory1 {
+		width: 47%;
+	}
+	#histcategory2 {
+		width: 47%;
+	}
+	#sidebar {
+		display: none;
+	}
+	#footer {
+		width: 474px;
+	}
+	#terms {
+		width: 474px;
+	}
+}
+
+/* for 480px or less */
+@media screen and (max-width: 480px) {
+	#header {
+		width: 320px;
+	}
+	body {
+		width: 320px;
+	}
+	#content {
+		width: 320px;
+	}
+	#news {
+		width: 320px;
+	}
+	h1 {
+		font-size: 24px;
+	}
+	#search {
+		width: 160px;
+		float: right;
+		left: 27px;
+	}
+	#search input {
+		width: 100px;
+	}
+	#searchSubmit {
+		width: 50px;
+	}
+	nav {
+		width: 320px;
+	}
+	nav ul li a {
+		width: 53.3px;
+		text-align: center;
+		font-size: 0em;
+	}
+	nav ul li a:hover {
+		width: 53.3px;
+	}
+	#home {
+		background-image: url(../images/homeIcon2.png);
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+	#home:hover {
+		background-image: url(../images/homeIcon.png);
+	}
+	#games {
+		background-image: url(../images/gamesIcon2.png);
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+	#games:hover {
+		background-image: url(../images/gamesIcon.png);
+	}
+	#tunes {
+		background-image: url(../images/tunesIcon2.png);
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+	#tunes:hover {
+		background-image: url(../images/tunesIcon.png);
+	}
+	#art {
+		background-image: url(../images/blogIcon2.png);
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+	#art:hover {
+		background-image: url(../images/blogIcon.png);
+	}
+	#store {
+		background-image: url(../images/storeIcon2.png);
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+	#store:hover {
+		background-image: url(../images/storeIcon.png);
+	}
+	#history {
+		background-image: url(../images/historyIcon2.png);
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+	#history:hover {
+		background-image: url(../images/historyIcon.png);
+	}
+	.game {
+		height: 330px;
+	}
+	#category1 {
+		width: 320px;
+	}
+	#category2 {
+		display: none;
+	}
+	#information {
+		width: 320px;
+	}
+	#infoRight {
+		width: 160px;
+		float: right;
+	}
+	#left {
+		display: none;
+	}
+	#tunesLeft h2 {
+		height: 30px;
+		width: 320px;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		float: left;
+		position: relative;
+	}
+	#tunesLeft a {
+		bottom: 100px;
+		position: relative;
+	}
+	#tunesLeft p {
+		width: 320px;
+		left: 0;
+		position: relative;
+		text-align: center;
+	}
+	#tunesLeft ul {
+		width: 320px;
+		bottom: 100px;
+		position: relative;
+	}
+	#tunesLeft ul li {
+		width: 360px;
+		font-size: .7em;
+	}
+	#tunesLeft audio {
+		width:220px;
+	}
+	#cat2 {
+		width: 100%;
+	}
+	#cat3 {
+		padding-top: 65px;
+		width: 100%;
+		padding-bottom: 60px;
+	}
+	.right {
+		width: 320px;
+		float: left;
+		text-align: center;
+		bottom: 65px;
+		left: 0px;
+		position: relative;
+		line-height: 30px;
+	}
+	#histcategory1 {
+		width: 100%;
+	}
+	#histcategory2 {
+		width: 100%;
+		bottom: 130px;
+		position: relative;
+	}
+	#cart {
+		width: 66%;
+		margin: auto;
+		left: 0;
+	}
+	#banner img {
+		width: 316px;
+	}
+	#tv object {
+		width: 300px;
+		height: 178px;
+	}
+	#footer {
+		width: 320px;
+	}
+	#terms {
+		width: 320px;
+		font-size: .68em;
+	}
+	.tunesImage {
+	    display: none;
+	}
+}

@@ -1,0 +1,175 @@
+@font-face {
+            font-family: finalfantasy;
+            src: local("☺"),
+                url("../media/Final-Fantasy.ttf") format("truetype");
+        }
+        
+        @font-face {
+            font-family: finalfantasy bold;
+            font-weight: bold;
+            src: local("☺"),
+                url("../media/Final-Fantasy.ttf") format("truetype");
+        }
+        .finalfantasy {
+            font-family: finalfantasy;
+        }
+ 
+body{
+	font-family:finalfantasy;
+	font-size:13px;
+	font-weight: normal;
+	line-height:1.5em;
+	color:#fff;
+}
+ 
+.clearfix{
+	clear:both;
+}
+ 
+#container{
+	width:530px;
+	min-height:400px;
+	background:black;
+	overflow:auto;
+	margin:20px auto;
+	border: 4px solid rgb(47,22,236);
+}
+ 
+#audio-image{
+	position:relative;
+	overflow:hidden;
+	height:200px;
+	margin-bottom:15px;
+}
+ 
+#audio-image .cover{
+	width:100%;
+}
+ 
+#audio-info{
+	text-align:left;
+	padding-left: 5px;
+}
+ 
+#audio-info .artist{
+	padding-left: 5px;
+}
+
+.time {
+    font-size:10px;
+}
+ 
+#volume{
+	width:95%;
+	margin-left:2%;
+	-webkit-appearance:none;
+	-moz-appearance:none;
+	background:#ccc;
+	height:4px;
+	margin-bottom:20px;
+}
+#volume::-webkit-slider-thumb{
+	-webkit-appearance:none;
+	-moz-appearance:none;
+	background:url(../images/knob.png) no-repeat;
+	height:16px;
+	width:16px;
+}
+ 
+#buttons{
+	width:90%;
+	display:block;
+	margin:15px auto;
+	margin-left:23px;
+	overflow:auto;
+}
+
+#buttons span{
+    text-align: center;
+}
+ 
+#play{
+	width:34px;
+	height:18px;
+	background:url(../images/play.png) no-repeat;
+	float:left;
+	margin-left:-2px;
+}
+ 
+#pause{
+	width:34px;
+	height:18px;
+	background:url(../images/pause.png) no-repeat;
+	float:left;
+	margin-left:-2px;
+}
+ 
+#stop{
+	width:34px;
+	height:18px;
+	background:url(../images/stop.png) no-repeat;
+	float:left;
+	margin-left:3px;
+}
+ 
+#prev{
+	width:34px;
+	height:18px;
+	background:url(../images/prev.png) no-repeat;
+	float:left;
+}
+ 
+#next{
+	width:34px;
+	height:18px;
+	background:url(../images/next.png) no-repeat;
+	float:left;
+}
+ 
+#tracker{
+	position:relative;
+	width:40%;
+	border: 2px solid white;
+}
+ 
+#progress-bar{
+	width:80%;
+	margin-left:2%;
+	margin-bottom:20px;
+	margin-top:9px;
+	height:16px;
+	background:url(../images/progress_bg.png) no-repeat;
+	float:left;
+}
+ 
+#progress{
+	background:url(../images/progress.png) no-repeat;
+	height:16px;
+	display:inline-block;
+}
+ 
+#duration{
+	position:absolute;
+	top:0;
+	right:10px;
+	padding: 4px 8px;
+	background:#000;
+	min-width: 50px;
+	min-height: 20px;
+}
+ 
+#playlist{
+	list-style:none;
+}
+#playlist li{
+	cursor:pointer;
+	margin:5px;
+	padding-left:0;
+}
+#playlist active{
+	font-weight:bold;
+	padding:3px;
+	background:#666;
+	background:url(../images/next.png) no-repeat;
+}
+

@@ -1,0 +1,71 @@
+<!-- This media player was based off the template here: https://www.eduonix.com/blog/web-programming-tutorials/learn-build-audio-player-using-html5/ -->
+
+<html>
+<head>
+    <title>Tunes</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div id="container">
+		<div id="audio-player">
+			<div id="audio-info"><br />
+				<span class="title"></span><br />
+				<span class="artist"></span>
+				</span><br />
+			</div><br />
+			<input id="volume" type="range" min="0" max="10" value="4">
+			<br />
+			<div id="buttons">
+				<span>
+					<button id="prev"></button>
+					<button id="play"></button>
+					<button id="pause"></button>
+					<button id="stop"></button>
+					<button id="next"></button>
+				</span>
+			</div>
+			<div class="clearfix"></div>
+			<div id="tracker">
+				<div id="progress-bar">
+					<span id="progress"></span>
+				</div>
+				<span id="duration"></span>
+			</div>
+			<div class="clearfix"></div>
+			<ul id="playlist" class="hidden">
+			    <li class="active" song="aChildsPrayerIntro.mp3" artist="Janice Kapp Perry">1. A Child's Prayer   <span class="time">1:30</span></li>
+				<li song="YouKilledOurLordIntro.mp3" artist="Big Leaguez">2. You Killed Our Lord!</li>
+				<li song="guitarNewer.mp3" artist="Big Leaguez">Brigham Young</li>
+				<li song="cain.ogg" artist="Big Leaguez">Cain</li>
+				<li song="FannyAlger.mp3" artist="Big Leaguez">Fanny Alger</li>
+				<li song="guitar.mp3" artist="Big Leaguez">Great Plains</li>
+				<li song="JamesStrang.ogg" artist="Big Leaguez">James Strang</li>
+				<li song="johnDLee.ogg" artist="Big Leaguez">John D. Lee</li>
+				<li song="joseph.ogg" artist="Big Leaguez">Joseph Smith</li>
+				<li song="IDKAtmospherical.mp3" artist="Big Leaguez">Moon Theme</li>
+				<li song="oliverCowdery.ogg" artist="Big Leaguez">Olivery Cowdery</li>
+				<li song="PorterRockwell.ogg" artist="Big Leaguez">Porter Rockwell</li>
+				<li song="SidneyRigdon.ogg" artist="Big Leaguez">Sidney Rigdon</li>
+				<li song="time.mp3" artist="Big Leaguez">Time</li>
+				<li song="lulzPt2.mp3" artist="Big Leaguez">Turd Burglar</li>
+				<li song="uncleWarren.ogg" artist="Big Leaguez">Uncle Warren</li>
+				
+				<li song="iLoveToSeeTheTemple(Kirtland).ogg" artist="Janice Kapp Perry">I Love to See the Temple</li>
+				<li song="imTryingToBeLikeJesus.ogg" artist="Janice Kapp Perry">I'm Trying to be Like Jesus</li>
+				<li song="jesusWantsMeForASunbeam.ogg" artist="Edwin O. Excell">Jesus Wants Me for a Sunbeam</li>
+				<li song="wellBringTheWorldHisTruth.ogg" artist="Janice Kapp Perry">We'll Bring the World His Truth</li>
+				
+				<li song="calledToServe.ogg" artist="Adam Geibel">Called To Serve</li>
+				<li song="comeComeYeSaints.ogg" artist="English folk song">Come, Come, Ye Saints</li>
+				<li song="ifYouCouldHieToKolobNew.mp3" artist="English hymnal - Ralph Vaughan Williams">If You Could Hie to Kolob</li>
+				<li song="praiseToTheMan.ogg" artist="Scottish folk song">Praise to the Man</li>
+				<li song="putYourShoulderToTheWheel.ogg" artist="Will L. Thompson">Put Your Shoulder to the Wheel</li>
+				<li song="thereIsSunshineInMySoulToday.ogg" artist="John R. Sweney">There is Sunshine in my Soul Today</li>
+			</ul>
+		</div>
+	</div>
+	
+	<script src="js/jquery.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>

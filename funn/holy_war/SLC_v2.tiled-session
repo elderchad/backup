@@ -1,0 +1,76 @@
+{
+    "activeFile": "holy_war_map.tmx",
+    "expandedProjectPaths": [
+        "."
+    ],
+    "file.lastUsedOpenFilter": "All Files (*)",
+    "fileStates": {
+        "C:/Users/kenne/Desktop/random/funn/ChadGasm/palmyra.tsx": {
+            "scaleInDock": 1
+        },
+        "SLC_v2.tsx": {
+            "scaleInDock": 2,
+            "scaleInEditor": 5.5
+        },
+        "characters.tsx": {
+            "scaleInDock": 1
+        },
+        "holy_war_effects.tsx": {
+            "scaleInDock": 1
+        },
+        "holy_war_field.tsx": {
+            "scaleInDock": 1
+        },
+        "holy_war_map.tmx": {
+            "scale": 3.149158653846154,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 208.30960650356852,
+                "y": 104.31357581771688
+            }
+        },
+        "holy_war_players.tsx": {
+            "scaleInDock": 1
+        },
+        "kirtland.tsx": {
+            "scaleInDock": 1
+        },
+        "nauvoo.tsx": {
+            "scaleInDock": 1
+        },
+        "salt_lakebed_city.tmx": {
+            "scale": 2,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 494.5,
+                "y": 320.75
+            }
+        },
+        "salt_lakebed_city.tsx": {
+            "scaleInDock": 1.5,
+            "scaleInEditor": 1
+        },
+        "slc_modern.tmx": {
+            "scale": 3,
+            "selectedLayer": 6,
+            "viewCenter": {
+                "x": 1812.6666666666665,
+                "y": 1757.1666666666665
+            }
+        }
+    },
+    "openFiles": [
+        "slc_modern.tmx",
+        "salt_lakebed_city.tsx",
+        "salt_lakebed_city.tmx",
+        "holy_war_map.tmx"
+    ],
+    "project": "",
+    "recentFiles": [
+        "slc_modern.tmx",
+        "salt_lakebed_city.tsx",
+        "salt_lakebed_city.tmx",
+        "holy_war_map.tmx",
+        "SLC_v2.tsx"
+    ]
+}

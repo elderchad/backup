@@ -1,0 +1,138 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "holy_war_map.tmx",
+    "expandedProjectPaths": [
+    ],
+    "file.lastUsedOpenFilter": "All Files (*)",
+    "fileStates": {
+        "C:/Users/kenne/Desktop/random/funn/ChadGasm/palmyra.tsx": {
+            "scaleInDock": 1
+        },
+        "characters.tsx": {
+            "scaleInDock": 1
+        },
+        "forkwater_cafeteria.tsx": {
+            "scaleInDock": 1
+        },
+        "forkwater_classroom.tsx": {
+            "scaleInDock": 1
+        },
+        "forkwater_football.tsx": {
+            "scaleInDock": 1
+        },
+        "forkwater_overworld.tsx": {
+            "scaleInDock": 1
+        },
+        "forkwater_school.tsx": {
+            "scaleInDock": 1
+        },
+        "forkwater_test.tmx": {
+            "scale": 0.25164794921875,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 3071.7516371574097,
+                "y": 1.986902740722826
+            }
+        },
+        "holy_war_effects.tsx": {
+            "scaleInDock": 1
+        },
+        "holy_war_field.tsx": {
+            "scaleInDock": 1
+        },
+        "holy_war_map.tmx": {
+            "scale": 2.477764423076923,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 208.2522435120058,
+                "y": 104.32791656560758
+            }
+        },
+        "holy_war_players.tsx": {
+            "scaleInDock": 1
+        },
+        "nauvoo.tsx": {
+            "scaleInDock": 1
+        },
+        "opening_demo_test.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "opening_test.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "salt_lakebed_city.tsx": {
+            "scaleInDock": 1
+        },
+        "sample.tmx": {
+            "scale": 4,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 212.75,
+                "y": 119.625
+            }
+        },
+        "sample_slc.tmx": {
+            "scale": 2,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 484.5,
+                "y": 1062.25
+            }
+        },
+        "sample_slc.tsx": {
+            "scaleInDock": 3,
+            "scaleInEditor": 1
+        },
+        "slc_modern.tmx": {
+            "scale": 1,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 416,
+                "y": 3070.5
+            }
+        },
+        "smoke_right.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 4
+        }
+    },
+    "last.imagePath": "C:/Users/kenne/Desktop/chad/wifebeater",
+    "map.height": 1,
+    "map.lastUsedFormat": "tmx",
+    "map.tileHeight": 240,
+    "map.tileWidth": 426,
+    "map.width": 1,
+    "openFiles": [
+        "sample_slc.tmx",
+        "sample_slc.tsx",
+        "sample.tmx",
+        "opening_demo_test.tsx",
+        "smoke_right.tsx",
+        "forkwater_test.tmx",
+        "holy_war_map.tmx"
+    ],
+    "project": "sample_map.tiled-project",
+    "recentFiles": [
+        "sample_slc.tmx",
+        "sample_slc.tsx",
+        "sample.tmx",
+        "opening_demo_test.tsx",
+        "smoke_right.tsx",
+        "forkwater_test.tmx",
+        "holy_war_map.tmx",
+        "slc_modern.tmx",
+        "opening_test.tsx"
+    ],
+    "tileset.lastUsedFormat": "tsx",
+    "tileset.margin": 0,
+    "tileset.spacing": 0,
+    "tileset.tileSize": {
+        "height": 37,
+        "width": 28
+    }
+}

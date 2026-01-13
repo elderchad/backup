@@ -1,0 +1,64 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "intro_level_proto.tmx",
+    "expandedProjectPaths": [
+    ],
+    "file.lastUsedOpenFilter": "All Files (*)",
+    "fileStates": {
+        "fire.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "intro_level.tsx": {
+            "scaleInDock": 4,
+            "scaleInEditor": 4
+        },
+        "intro_level_proto.tmx": {
+            "scale": 1,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 756,
+                "y": 244
+            }
+        },
+        "water_new_opaque.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 4
+        },
+        "water_still_opaque.tsx": {
+            "scaleInDock": 5.5,
+            "scaleInEditor": 4
+        }
+    },
+    "frame.defaultDuration": 200,
+    "last.imagePath": "C:/Users/kenne/Documents/GitHub/bookofchad/tilesheets",
+    "map.fixedSize": false,
+    "map.lastUsedFormat": "tmx",
+    "map.tileHeight": 16,
+    "map.tileWidth": 16,
+    "openFiles": [
+        "intro_level_proto.tmx",
+        "intro_level.tsx",
+        "water_still_opaque.tsx",
+        "water_new_opaque.tsx",
+        "fire.tsx"
+    ],
+    "project": "intro_level_proto.tiled-project",
+    "recentFiles": [
+        "fire.tsx",
+        "water_new_opaque.tsx",
+        "water_still_opaque.tsx",
+        "intro_level.tsx",
+        "intro_level_proto.tmx"
+    ],
+    "tileset.lastUsedFormat": "tsx",
+    "tileset.tileSize": {
+        "height": 16,
+        "width": 16
+    },
+    "tileset.transparentColor": "#a349a4",
+    "tileset.useTransparentColor": true
+}
